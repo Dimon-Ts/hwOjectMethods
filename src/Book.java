@@ -22,7 +22,7 @@ public class Book {
         this.yearPublication = yearPublication;
     }
     public String toString() {
-        return "Название книги -  " + this.title + " , дата издания - " + this.yearPublication + " ";
+        return "Название книги -  " + this.title + " . " + "Дата издания - " + this.yearPublication + " . ";
     }
     public int hashCode() {
         return Objects.hash(title);

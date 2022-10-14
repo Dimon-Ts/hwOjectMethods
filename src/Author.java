@@ -17,7 +17,7 @@ public class Author {
     }
 
     public String toString() {
-        return ", автор : " + this.name + " " + this.surname + " ";
+        return "Автор : " + this.name + " " + this.surname + " ";
     }
 
     public boolean equals(Object o){

@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Домашнее задание.Объекты и классы.");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("Небольшой библиотечный каталог.");
         System.out.println("==================================================================================");
         Book warAndPeace = new Book("War and Peace", 2021);
