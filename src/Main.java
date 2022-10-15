@@ -10,9 +10,9 @@ public class Main {
         Book warAndPeace2 = new Book("War and Peace", 2021);
         Author lev = new Author("Lev", "Tolstoy.");
         Author lev2 = new Author("Lev", "Tolstoy.");
+        System.out.println(lev.hashCode());
+        System.out.println(lev2.hashCode());
         System.out.println(lev.equals(lev2));
-        System.out.println(warAndPeace.hashCode());
-        System.out.println(warAndPeace2.hashCode());
         warAndPeace.setYearPublication(2019);
         System.out.print(warAndPeace);
         System.out.print(lev);
@@ -22,6 +22,8 @@ public class Main {
         Book gardenOfCherry = new Book("Garden of Cherry", 1903);
         Author anton = new Author("Anton", "Chekhov.");
         Author anton2 = new Author("Anton", "Chekhov.");
+        System.out.println(anton.hashCode());
+        System.out.println(anton2.hashCode());
         System.out.println(anton.equals(anton2));
         gardenOfCherry.setYearPublication(1910);
         System.out.print(gardenOfCherry);
@@ -32,6 +34,8 @@ public class Main {
         Book amphibianMan = new Book("Amphibian Man", 1927);
         Author alexandr = new Author("Alexandr", "Belyaev.");
         Author alexandr2 = new Author("Alexandrs", "Belyaev.");
+        System.out.println(alexandr.hashCode());
+        System.out.println(alexandr2.hashCode());
         System.out.println(alexandr.equals(alexandr2));
         amphibianMan.setYearPublication(1930);
         System.out.print(amphibianMan);

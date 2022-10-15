@@ -19,6 +19,7 @@ public class Author {
     public String toString() {
         return "Автор : " + name + " " + surname + " ";
     }
+    public int hashCode() { return Objects.hash(name,surname); }
 
     public boolean equals(Object o){
         if (this == o){
